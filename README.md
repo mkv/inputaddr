@@ -43,9 +43,10 @@ street_postalcode:350901
 
 Получение исходного кода:
 
-    git clone https://github.com/mkv/inputaddr
+    git clone git@github.com:mkv/inputaddr.git
     cd inputaddr
     git submodule init
+    git submodule update
 
 Сборка **Tokyo Cabinet** из состава **EJDB**:
 
@@ -79,4 +80,4 @@ street_postalcode:350901
 
 Я пока постесняюсь публиковать этот процесс,
 т.к. благодаря использованию **Tokyo Cabinet** он состоит чуть менее чем полностью из костылей.
-Несколько исправляет ситуацию работа проделанная автором **EJDB**. За что ему огромное **спасибо**!
+Несколько исправляет ситуацию работа проделанная автором **EJDB**. За это ему огромное **спасибо**!
